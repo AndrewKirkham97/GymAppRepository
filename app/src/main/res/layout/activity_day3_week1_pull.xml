@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day3Week1Pull">
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="613dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="58dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tWarm Up:\n\t\t5 Min on Treadmill/Stairmaster, band stretches, push ups, arm circles\n" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 1: Lat Pulldown\n\t\t4 feeder sets x 10 reps light weight up to failure\n\t\t\tafter failure set 2-3 min rest then another failure set\n\t\t\tthen 30% drop set\n\t\t\t\t(ex. 55-85-115-130-130-85)\n" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 2: Omni-Grip Chest Supported Row\n\t\t3 x 10-12 different grip each row (wide, medium, neutral)\n\t\tSubstitute: T-bar Row or Helms Row with Dumbells and bench\n\t\t\t(ex. 47)\n" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 3: (SS) Bottom-half Dumbbell Pullover and Static Lat Stretch\n\t\t2 x 10-12 and 2 x 30s\n\t\t\t(ex. 22.5)\n" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 4: Omni-direction Face Pull\n\t\t3 x 12-15 low-to-high, mid, high-to-low\n\t\t\t(ex. 27.5)\n" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 5: Ez-bar bicep Curl\n\t\t3 x 6-8\n\t\t\t(ex. 50)\n" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 6: Bottom-half Dumbbell Preacher Curl\n\t\t2 x 10-12\n\t\t\t(ex. 12.5)" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Week 1 Pull" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Go Home" />
+
+</RelativeLayout>

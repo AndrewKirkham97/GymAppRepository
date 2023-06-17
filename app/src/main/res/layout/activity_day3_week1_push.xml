@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day3Week1Push">
+
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="624dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tWarm Up:\n\t\t5 Min on Treadmill/Stairmaster, band stretches, push ups, arm circles\n" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 1: Bench Press\n\t\t1 x 3-5 near max effort with warm up pyramid to lead up to it
+                 \t\t\t(ex. 0-10-25-35-45)\n\t\t\tSubstitutes: Dumbell or Machine Press\n" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 2: Larsson Press\n\t\t2 x 10 75% of top set weight from Bench Press. Use a more
+                \t\t\tcontrolled tempo rather than the explosive reps on the Bench\n\t\t\t(ex. 27.5)\n" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 3: Standing Arnold Press\n\t\t3 x 8-10 forearms in then rotate up while flaring
+elbows out\n\t\t\t(ex. 30)\n" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 4: (SS) Press-Around and Pec Stretch\n\t\t2 x 12-15 and 2 x 30s, after each Press-Around do a Pec Stretch\n\t\t\t(ex. 13)\n" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 5: Cross-Body cable Y-Raise\n\t\t3 x 12-15 make sure to not do a front raise\n\t\t\t(ex. 13)\n" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 6: (SS) Squeeze-only Press Down and Stretch-Only Overhead Extension\n\t\t\t(ex. 27)\n" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 7: Cross-Body Tricep Extension\n\t\t2 x 10-12 cable machine out and at an angle\n\t\t\t(ex. 13)" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Week 1 Push" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Go Home" />
+</RelativeLayout>

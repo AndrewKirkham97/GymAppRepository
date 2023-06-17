@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day3Week1Legs">
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="613dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="58dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tWarm Up:\n\t\t5-10 Min on Treadmill/Stairmaster, dynamic movements (front to back and side to side leg swings)\n" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 1: Back Squat\n\t\t1 Heavy Set x 2-4 reps 85-90% of One Rep Max, 5 warm up sets\n\t\t\tSubstitutes: Hack Squat or Bulgarian Split Squats 4-6 reps\n\t\t\t\t(ex. 0-25-35-45-55-70)\n" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 2: Pause Squat\n\t\t2 x 5 Pause at the bottom then explode up, 75% of top set\n\t\t\t(ex. 45)\n" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 3: Barbell Romanian Deadlift\n\t\t3 x 8-10 make sure bar goes straight up and down\n\t\t\t(ex. 35)\n" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 4: Walking Lunge\n\t\t2 x 10 per leg make sure to contact ground each time\n\t\t\t(ex. 35)\n" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 5: Seated Hamstring Curl\n\t\t3 x 10-12 make sure to be seated far enough forward that a solid stretch in the hamstring can be felt\n\t\t\t(ex. 115)\n" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 6: Leg Press Toe Press\n\t\t4 x 10-12 angle toes to target different parts of the calf\n\t\t\t(ex. 90)\n" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tExercise 7: Decline Plate Crunch\n\t\t3 x 10-12\n\t\t\t(ex. 25 degrees, 25)" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Week 1 Legs" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Go Home" />
+
+</RelativeLayout>
