@@ -30,43 +30,92 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 1: Deadlift\n\t\t4 x 4\n\t\t\t(ex. 0-45-55-70-70)\n" />
+                android:text="\tExercise 1: Deadlift\n\t\t4 x 4 \t(ex. 0-45-55-70-70)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/deadlift" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 2: Deficit Bulgarian Split Squat\n\t\t3 x 10-12\n\t\t\t(ex. 20)\n" />
+                android:text="\tExercise 2: Deficit Bulgarian Split Squat\n\t\t3 x 10-12 \t(ex. 20)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/bulgariansplitsquat" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 3: Hip Thrust\n\t\t3 x 15\n\t\t\t(ex. Bar)\n" />
+                android:text="\tExercise 3: Hip Thrust\n\t\t3 x 15 \t(ex. Bar)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/hipthrust" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 4: 3s Eccentric Goblet Squat\n\t\t3 x 15\n\t\t\t(ex. 40)\n" />
+                android:text="\tExercise 4: 3s Eccentric Goblet Squat\n\t\t3 x 15 \t(ex. 40)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/gobletsquat" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 5: Eccentric Leg Curl\n\t\t3 x 10\n\t\t\t(ex. 130)\n" />
+                android:text="\tExercise 5: Eccentric Leg Curl\n\t\t3 x 10 \t(ex. 130)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/seatedlegcurl" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 6: Standing Calf Raise\n\t\t3 x 10\n\t\t\t(ex. 25)\n" />
+                android:text="\tExercise 6: Standing Calf Raise\n\t\t3 x 10 \t(ex. 25)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/calfraise" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 7: Leg Lifts\n\t\t3 x 15" />
+                android:text="\tExercise 7: Leg Raise\n\t\t3 x 15" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/legraise" />
 
         </LinearLayout>
     </ScrollView>
@@ -78,7 +127,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
-        android:text="Week 2 Legs" />
+        android:text="Week 2 Legs"
+        android:textSize="20dp"/>
 
     <Button
         android:id="@+id/buttonHome"

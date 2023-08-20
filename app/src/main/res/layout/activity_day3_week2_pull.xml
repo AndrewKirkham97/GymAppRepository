@@ -30,37 +30,79 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 1: Chest Supported Rows\n\t\t4 x 10 feeder sets, second failure then 30% drop set\n\t\t\t(ex. 40-47-54-61-61-47)\n" />
+                android:text="\tExercise 1: Chest Supported Rows\n\t\t4 x 10 feeder sets, second failure then 30% drop set\n\t\t\t(ex. 40-47-54-61-61-47)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/chestsupportedrow" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 2: Pull Ups\n\t\t3 x 10\n\t\t\t(ex. 115)\n" />
+                android:text="\tExercise 2: Pull Ups\n\t\t3 x 10 \t(ex. 115)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/pullup" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 3: Dips\n\t\t3 x 10\n\t\t\t(ex. 115)\n" />
+                android:text="\tExercise 3: Dips\n\t\t3 x 10 \t(ex. 115)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/dip" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 4: Bicep Curl\n\t\t3 x 6-8\n\t\t\t(ex. 50)\n" />
+                android:text="\tExercise 4: Bicep Curl\n\t\t3 x 6-8 \t(ex. 50)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/barbellbicepcurl" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 5: Dumbbell Preacher Curl\n\t\t2 x 10\n\t\t\t(ex. 12.5)\n" />
+                android:text="\tExercise 5: Dumbbell Preacher Curl\n\t\t2 x 10 \t(ex. 12.5)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/dumbbellpreachercurl" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 6: Lower Back Extension\n\t\t2 x 15\n\t\t\t(ex. 10)\n" />
+                android:text="\tExercise 6: Lower Back Extension\n\t\t2 x 15 \t(ex. 10)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/lowerbackextension" />
 
         </LinearLayout>
     </ScrollView>
@@ -72,7 +114,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
-        android:text="Week 2 Pull" />
+        android:text="Week 2 Pull"
+        android:textSize="20dp"/>
 
     <Button
         android:id="@+id/buttonHome"

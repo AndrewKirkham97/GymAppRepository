@@ -30,37 +30,87 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 1: Lat Pulldown\n\t\t4 feeder sets x 10 reps light weight up to failure\n\t\t\tafter failure set 2-3 min rest then another failure set\n\t\t\tthen 30% drop set\n\t\t\t\t(ex. 55-85-115-130-130-85)\n" />
+                android:text="\tExercise 1: Lat Pulldown\n\t\t4 feeder sets x 10 reps light weight up to failure\n\t\t\tafter failure set 2-3 min rest then another failure set\n\t\t\tthen 30% drop set\n\t\t\t\t(ex. 55-85-115-130-130-85)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/latpulldown" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 2: Omni-Grip Chest Supported Row\n\t\t3 x 10-12 different grip each row (wide, medium, neutral)\n\t\tSubstitute: T-bar Row or Helms Row with Dumbells and bench\n\t\t\t(ex. 47)\n" />
+                android:text="\tExercise 2: Omni-Grip Chest Supported Row\n\t\t3 x 10-12 different grip each row (wide, medium, neutral)\n\t\tSubstitute: T-bar Row or Helms Row with Dumbells and bench\n\t\t\t(ex. 47)" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="262dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/chestsupportedrow" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 3: (SS) Bottom-half Dumbbell Pullover and Static Lat Stretch\n\t\t2 x 10-12 and 2 x 30s\n\t\t\t(ex. 22.5)\n" />
+                android:text="\tExercise 3: (SS) Bottom-half Dumbbell Pullover and Static Lat Stretch\n\t\t2 x 10-12 and 2 x 30s\n\t\t\t(ex. 22.5)" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="262dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/dumbbellpullover" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="262dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/staticlatstretch" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 4: Omni-direction Face Pull\n\t\t3 x 12-15 low-to-high, mid, high-to-low\n\t\t\t(ex. 27.5)\n" />
+                android:text="\tExercise 4: Omni-direction Face Pull\n\t\t3 x 12-15 low-to-high, mid, high-to-low\n\t\t\t(ex. 27.5)" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="337dp"
+                android:layout_height="112dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/facepull" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 5: Ez-bar bicep Curl\n\t\t3 x 6-8\n\t\t\t(ex. 50)\n" />
+                android:text="\tExercise 5: Ez-bar bicep Curl\n\t\t3 x 6-8\n\t\t\t(ex. 50)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/barbellbicepcurl" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="\tExercise 6: Bottom-half Dumbbell Preacher Curl\n\t\t2 x 10-12\n\t\t\t(ex. 12.5)" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="206dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#fff"
+                android:src="@drawable/dumbbellpreachercurl" />
+
         </LinearLayout>
     </ScrollView>
 
@@ -71,7 +121,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
-        android:text="Week 1 Pull" />
+        android:text="Week 1 Pull"
+        android:textSize="20dp"/>
 
     <Button
         android:id="@+id/buttonHome"

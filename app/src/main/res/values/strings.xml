@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">GymApp</string>
+    <string-array name="Monthly_Wave">
+        <item>10s</item>
+        <item>8s</item>
+        <item>5s</item>
+        <item>3s</item>
+    </string-array>
+    <string-array name="Weekly_Phase">
+        <item>Accumulation</item>
+        <item>Intensification</item>
+        <item>Realization</item>
+        <item>Deload</item>
+    </string-array>
+    <string-array name="Main_Exercise">
+        <item>Bench Press</item>
+        <item>Back Squat</item>
+        <item>Should Press</item>
+        <item>Dead Lift</item>
+    </string-array>
 </resources>
