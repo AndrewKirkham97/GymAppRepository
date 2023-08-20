@@ -30,7 +30,7 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 1: Deadlift\n\t\t4 x 4 \t(ex. 0-45-55-70-70)" />
+                android:text="\tExercise 1: Deadlift\n\t\t1 x 5 \t(ex. 30% x 8, 50% x 4, 75% x 2, 90% x 1, Max)" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"
@@ -43,20 +43,20 @@
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 2: Deficit Bulgarian Split Squat\n\t\t3 x 10-12 \t(ex. 20)" />
+                android:text="\tExercise 2: Stiff-Leg Deadlift\n\t\t2 x 8 \t(ex. 50% of top set from previous Deadlift)" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"
                 android:layout_height="115dp"
                 android:layout_gravity="center_horizontal"
                 android:background="#fff"
-                android:src="@drawable/bulgariansplitsquat" />
+                android:src="@drawable/deadlift" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 3: Hip Thrust\n\t\t3 x 15 \t(ex. Bar)" />
+                android:text="\tExercise 3: Leg Press\n\t\t4 x 10-12 \t(ex. 45)" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"
@@ -69,7 +69,7 @@
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 4: 3s Eccentric Goblet Squat\n\t\t3 x 15 \t(ex. 40)" />
+                android:text="\tExercise 4: Glute-Ham Raise\n\t\t3 x 8-10 \t(ex. 40)" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"
@@ -82,7 +82,7 @@
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 5: Eccentric Leg Curl\n\t\t3 x 10 \t(ex. 130)" />
+                android:text="\tExercise 5: Slow-Eccentric Leg Extension\n\t\t3 x 8-10 \t(ex. 130)" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"
@@ -95,7 +95,7 @@
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 6: Standing Calf Raise\n\t\t3 x 10 \t(ex. 25)" />
+                android:text="\tExercise 6: Seated/Standing Calf Raise\n\t\t4 x 15-20 \t(ex. 25)" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"
@@ -108,7 +108,7 @@
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\tExercise 7: Leg Raise\n\t\t3 x 15" />
+                android:text="\tExercise 7: Roman Chair Leg Raise\n\t\t3 x 10-20" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="206dp"

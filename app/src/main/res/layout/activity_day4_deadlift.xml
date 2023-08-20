@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Day4Deadlift">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/warmUpDeadlift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tWarm Up:\n\t\t5 Min on Treadmill/Stairmaster, band stretches, push ups, arm circles, Jumping (~18)\n" />
+
+        <TextView
+            android:id="@+id/Exercise1Deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tExercise 1: Hamstring Curl\n\t\t5-10 x 5-10\n" />
+
+        <TextView
+            android:id="@+id/Exercise2Deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tExercise 2: Goblet Squat\n\t\t5 x 10-20\n" />
+
+        <TextView
+            android:id="@+id/Exercise3Deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tExercise 3: Walking Lunges\n\t\t2 x 20 \n" />
+
+        <TextView
+            android:id="@+id/Exercise4Deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tExercise 4: Side Bends\n\t\t2 x 20 \n" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:text="Go Home" />
+
+
+</RelativeLayout>
